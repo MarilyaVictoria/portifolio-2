@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor-principal: #95ac51;
+    --cor-secundaria: #19293b;
+    --cor-destaque: #6E859F;
+}
+
+body {
+    font-family: 'inter' sans-serif;
+    color: var(--cor-destaque);
+}
+
+h1,h2,h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead {
+    color: var(--cor-principal);
+    font-weight: 500;
+}
+
+
+footer a {
+    color: var(--cor-destaque);
+}
+
+footer a:hover {
+color: var(--cor-principal);
+}
+
