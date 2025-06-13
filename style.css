@@ -16,17 +16,17 @@ h1,h2,h5 {
     font-weight: 700;
 }
 
-.lead {
+.lead, .btn-link {
     color: var(--cor-principal);
     font-weight: 500;
 }
 
 
-footer a {
+a, .btn-link:hover {
     color: var(--cor-destaque);
 }
 
-footer a:hover {
+a:hover {
 color: var(--cor-principal);
 }
 
