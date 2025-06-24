@@ -16,17 +16,29 @@ h1,h2,h5 {
     font-weight: 700;
 }
 
-.lead, .btn-link {
-    color: var(--cor-principal);
-    font-weight: 500;
+.lead {
+  color: var(--cor-principal);
+  font-weight: 700;
 }
 
+.btn-link {
+  color: var(--cor-destaque);
+  font-weight: 700;
+}
 
-a, .btn-link:hover {
-    color: var(--cor-destaque);
+a,
+.btn-link:hover {
+  color: var(--cor-principal);
 }
 
 a:hover {
-color: var(--cor-principal);
+  color: var(--cor-destaque);
 }
 
+footer a {
+    color: var(--cor-destaque);
+}
+
+footer a:hover {
+    color: var(--cor-principal);
+}
